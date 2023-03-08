@@ -1,0 +1,29 @@
+{
+  "name": "followme",
+  "version": "1.0.0",
+  "description": "When your friend tells you \"I know a spot.\" A user-driven webapp where travellers around the world can share images and diary entries about the palces they visited. Filter by geographical location and surroundings to find your perfect spot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justin-chhay/FollowMe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justin-chhay/FollowMe/issues"
+  },
+  "homepage": "https://github.com/justin-chhay/FollowMe#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "config": "^3.3.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
