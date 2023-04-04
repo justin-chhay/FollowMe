@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 
-import CreateBook from './components/CreateBook';
-import ShowBookList from './components/ShowBookList';
-import ShowBookDetails from './components/ShowBookDetails';
-import UpdateBookInfo from './components/UpdateBookInfo';
+import CreatePlace from './components/CreatePlace';
+import ShowPlaceList from './components/ShowPlaceList';
+import ShowPlaceDetails from './components/ShowPlaceDetails';
+import UpdatePlaceInfo from './components/UpdatePlaceInfo';
 
 const App = () => {
   return (
@@ -12,9 +12,9 @@ const App = () => {
       <div>
         <Routes>
           <Route exact path='/' element={<ShowPlaceList />} />
-          <Route path='/create-Place' element={<CreateBook />} />
-          <Route path='/edit-book/:id' element={<UpdateBookInfo />} />
-          <Route path='/show-book/:id' element={<ShowBookDetails />} />
+          <Route path='/create-place' element={<CreatePlace />} />
+          <Route path='/edit-place/:id' element={<UpdatePlaceInfo />} />
+          <Route path='/show-place/:id' element={<ShowPlaceDetails />} />
         </Routes>
       </div>
     </Router>
